@@ -133,7 +133,7 @@ export default function Generator(props) {
                 })} 
             </div>
 
-            <Button func={updateWorkout} text={'Formulate'}  />
+            <Button func={(window.location.href = "#workout") && updateWorkout} text={'Formulate'}  />
         </SectionWrapper>
     </div>
   )
